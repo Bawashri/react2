@@ -1,12 +1,17 @@
 import React from 'react'
 import Navbar from './Navbar'
+import './App.css'
 
-function Home(props) {
+function Home() {
   return (
     <div>
       <Navbar></Navbar>
-      <h2>{props.title}</h2>
-      <p>This is my home page content.</p>
+      
+      <div className='home'>
+        <h1>Evara Holidays</h1>
+        <h3>EXPLORE EDGE</h3>
+        <p><q>Your gateway to seamless, personalized.<br/>and breathtaking travel adventure</q></p>
+      </div>
     </div>
   )
 }

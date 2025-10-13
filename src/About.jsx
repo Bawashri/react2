@@ -3,10 +3,14 @@ import Navbar from './Navbar'
 
 function About(props) {
   return (
-    <div>
+    <div >
       <Navbar></Navbar>
-      <h2>{props.title}</h2>
-      <p>This is my About page content.</p>
+      <div className='about-box'>
+      <h2 className='about-head'>{props.title}</h2>
+      <p className='about-para'>At Evara Travel, we believe that every journey tells a story.<br/>
+         Our mission is to make travel effortless, affordable, and inspiring.<br/>
+         Whether you dream of relaxing on tropical beaches, hiking through scenic mountains,<br/> or exploring vibrant cities, Evara helps you find your perfect destination and craft a personalized travel experience.</p>
+      </div>
     </div>
   )
 }
