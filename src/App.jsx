@@ -4,6 +4,7 @@ import Home from './Home'
 import About from './About'
 import Contact from './Contact'
 import './App.css'
+
 function App() {
   return (
     <div>
@@ -11,6 +12,7 @@ function App() {
        <div className='head'>
         Evara Holidays
        </div>
+      
         <div>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
