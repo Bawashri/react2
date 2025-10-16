@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar'
 import './App.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
- import { faPhone } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//  import { faPhone } from "@fortawesome/free-solid-svg-icons";
 // import { faInstagram} from "@fortawesome/free-brands-svg-icons";
 
 
